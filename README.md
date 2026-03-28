@@ -45,7 +45,7 @@ The panel: pick the app to transpose, adjust semitones, manage apps, and control
 
 ## Features
 
-- **Per-app transpose** — Saved per bundle ID.
+- **Per-app transpose** — Saved per unique app.
 - **Quick list** — Common music apps and browsers when they’re running; pin others from the apps window.
 - **Menu bar** — Popover + optional **tonepose — apps** window; **Quit** in the popover.
 - **Pipeline** — Stop / start when you need a clean reconnect.
